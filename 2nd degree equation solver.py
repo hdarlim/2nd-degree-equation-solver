@@ -4,7 +4,7 @@ print("### WELCOME TO THE 2ND DEGREE EQUATION SOLVER ###")
 a, b, c = map(float, input("Enter 'a', 'b', and 'c' separated by spaces (ex.: 2 -3 9): ").split())
 
 while a == 0:
-    a = float(input("'a' cannot be equal to 0 in a 2nd degree equation: Try again: "))
+    a = float(input("'a' cannot be equal to 0 in a 2nd degree equation. Try again: "))
 
 delta = (b**2) - (4 * a * c)
 
