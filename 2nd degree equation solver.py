@@ -18,4 +18,4 @@ elif delta == 0.0:
 else:
     x1 = complex(- (b / (2 * a)), (math.sqrt(-delta))/(2 * a))
     x2 = complex(- (b / (2 * a)), - (math.sqrt(-delta))/(2 * a))
-    print(f"Solution: x1 = {x1}, x2 = {x2}")
+    print(f"Solution: x1 = {x1.real:g} + {x1.imag:g}i, x2 = {x2.real:g} - {abs(x2.imag):g}i")
